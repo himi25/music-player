@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artists</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-800 text-white pt-32 min-h-screen">
+
+  <!-- Include the same navbar -->
+  <nav class="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-md shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-300 via-yellow-400 to-yellow-500 animate-pulse">
+        🎵 Music Vibes
+      </a>
+      <ul class="flex gap-8 text-white font-medium">
+        <li><a href="index.html" class="hover:text-yellow-300 transition">Home</a></li>
+        <li><a href="albums.html" class="hover:text-yellow-300 transition">Albums</a></li>
+        <li><a href="artists.html" class="hover:text-yellow-300 transition">Artists</a></li>
+        <li><a href="contact.html" class="hover:text-yellow-300 transition">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Artist Content -->
+  <div class="flex flex-col items-center px-6">
+    <h1 class="text-4xl font-bold text-yellow-400 mb-6">Artists</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <div class="bg-white/10 p-4 rounded-xl shadow-lg backdrop-blur w-64">
+        <img src="music1.jpg" alt="Taylor Swift" class="rounded-md w-full h-40 object-cover">
+        <h2 class="mt-3 text-yellow-200 text-xl font-semibold">Taylor Swift</h2>
+        <p class="text-sm text-gray-300">Pop / Country</p>
+      </div>
+
+      <div class="bg-white/10 p-4 rounded-xl shadow-lg backdrop-blur w-64">
+        <img src="music2.jpg" alt="Ed Sheeran" class="rounded-md w-full h-40 object-cover">
+        <h2 class="mt-3 text-yellow-200 text-xl font-semibold">Ed Sheeran</h2>
+        <p class="text-sm text-gray-300">Pop / Acoustic</p>
+      </div>
+
+      <div class="bg-white/10 p-4 rounded-xl shadow-lg backdrop-blur w-64">
+        <img src="music3.jpg" alt="Billie Eilish" class="rounded-md w-full h-40 object-cover">
+        <h2 class="mt-3 text-yellow-200 text-xl font-semibold">Billie Eilish</h2>
+        <p class="text-sm text-gray-300">Alternative / Indie</p>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
